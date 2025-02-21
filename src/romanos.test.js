@@ -12,5 +12,8 @@ describe("Romanos", () => {
   });
   it("debería retornar 'IV' si el número es 4", () => {
     expect(romanos(4)).toEqual("IV");
-  });  
+  });
+  it("debería retornar 'V' si el número es 5", () => {
+    expect(romanos(5)).toEqual("V");
+  });
 });
