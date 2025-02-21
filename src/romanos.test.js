@@ -25,4 +25,7 @@ describe("Romanos", () => {
   it("debería retornar 'X' si el número es 10", () => {
     expect(romanos(10)).toEqual("X");
   });
+  it("debería retornar 'XX' si el número es 20", () => {
+    expect(romanos(20)).toEqual("XX");
+  });
 });
