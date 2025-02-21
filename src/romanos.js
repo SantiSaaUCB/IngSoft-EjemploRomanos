@@ -1,10 +1,19 @@
 function romanos(num) {
-  if (num === 1) return "I";
-  if (num === 2) return "II";
-  if (num === 3) return "III";
-  if (num === 4) return "IV";
-  if (num === 5) return "V";
-  if (num === 6) return "VI";
+
+  const valores = [
+    [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]
+  ];
+
+  let resultado = "";
+
+  for (let [valor, letra] of valores) {
+    while (num >= valor) {
+      resultado += letra;
+      num -= valor;
+    }
+  }
+
+  return resultado;
 }
 
 export default romanos;
