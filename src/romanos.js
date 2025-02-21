@@ -4,6 +4,7 @@ function romanos(num) {
   if (num === 3) return "III";
   if (num === 4) return "IV";
   if (num === 5) return "V";
+  if (num === 6) return "VI";
 }
 
 export default romanos;
