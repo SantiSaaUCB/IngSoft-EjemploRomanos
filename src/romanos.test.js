@@ -10,4 +10,7 @@ describe("Romanos", () => {
   it("deberia retornar 'III' si el numero es 3", () => {
     expect(romanos(3)).toEqual("III");
   });
+  it("debería retornar 'IV' si el número es 4", () => {
+    expect(romanos(4)).toEqual("IV");
+  });  
 });

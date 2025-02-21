@@ -1,13 +1,8 @@
 function romanos(num) {
-  if(num == 1){
-    return "I"
-  }
-  else if(num == 2){
-    return "II"
-  }
-  else if(num == 3){
-    return "III"
-  }
+  if (num === 1) return "I";
+  if (num === 2) return "II";
+  if (num === 3) return "III";
+  if (num === 4) return "IV";
 }
 
 export default romanos;
