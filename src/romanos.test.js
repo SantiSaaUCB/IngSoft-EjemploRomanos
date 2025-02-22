@@ -52,4 +52,7 @@ describe("Romanos", () => {
   it("debería retornar 'CM' si el número es 900", () => {
     expect(romanos(900)).toEqual("CM");
   });
+  it("debería retornar 'M' si el número es 1000", () => {
+    expect(romanos(1000)).toEqual("M");
+  });
 });
