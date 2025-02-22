@@ -37,4 +37,13 @@ describe("Romanos", () => {
   it("debería retornar 'L' si el número es 50", () => {
     expect(romanos(50)).toEqual("L");
   });
+  it("debería retornar 'XC' si el número es 90", () => {
+    expect(romanos(90)).toEqual("XC");
+  });
+  it("debería retornar 'C' si el número es 100", () => {
+    expect(romanos(100)).toEqual("C");
+  });
+  it("debería retornar 'CD' si el número es 400", () => {
+    expect(romanos(400)).toEqual("CD");
+  });
 });
